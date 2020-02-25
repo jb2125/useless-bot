@@ -2,8 +2,13 @@ function answerQuery(query) {
   query = query.toLowerCase();
   if (query.indexOf("rain") != -1 || query.indexOf("sun") != -1 || query.indexOf("weather") != -1)
     return "I do not care too much about weather, I'm locked inside a data center.";
+
  if (query.indexOf("bass") != -1)
   return "Chello you got a bass!";
+    if (query.indexOf("tea") != -1)
+        return "I quite like tea, asam would be nice";
+    if (query.indexOf("biscuit") != -1)
+        return "Did I hear biscuit? Do you like ... have any?";
   return "Sorry Dave, I cannot do that."
 }
 
